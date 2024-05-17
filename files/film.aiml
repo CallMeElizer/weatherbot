@@ -37,7 +37,4 @@
             </random>
         </template>
     </category>
-
-    <!-- Default response for unrecognized input -->
-    <category>
-   
+   </aiml>
