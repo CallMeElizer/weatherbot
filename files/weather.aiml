@@ -1,0 +1,27 @@
+<aiml version="2.0">
+    <category>
+        <pattern>TÔI MUỐN BIẾT THỜI TIẾT HÔM NAY NHƯ THẾ NÀO</pattern>
+        <template>Bạn có thể cho tôi biết bạn đang ở thành phố nào không?</template>
+    </category>
+
+    <category>
+        <pattern>TÔI Ở HÀ NỘI</pattern>
+        <template>Hôm nay ở Hà Nội trời nắng và nhiệt độ khoảng 30 độ C. Bạn có cần thêm thông tin gì khác không?</template>
+    </category>
+
+ <category>
+        <pattern>TÔI Ở TP HỒ CHÍ MINH</pattern>
+        <template>Chào bạn! Hiện tại ở Thành phố Hồ Chí Minh, trời đang nhiệt độ 28°C, trời nhiều mây và có mưa rào. Độ ẩm đang ở mức 78%. Gió thổi nhẹ từ hướng Tây Nam với tốc độ 5 km/h. Bạn có cần thêm thông tin gì khác không?</template>
+    </category>
+
+    <category>
+        <pattern>KHÔNG, CẢM ƠN BẠN</pattern>
+        <template>Không có gì! Chúc bạn một ngày tốt lành!</template>
+    </category>
+    
+    <!-- Default response for unrecognized input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Xin lỗi, tôi không hiểu bạn đang nói gì. Bạn có thể thử hỏi lại không?</template>
+    </category>
+</aiml>

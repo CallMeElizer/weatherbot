@@ -1,0 +1,43 @@
+<aiml version="2.0">
+    <category>
+        <pattern>GỢI Ý PHIM</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể xem phim "The Shawshank Redemption".</li>
+                <li>"Inception" là một bộ phim rất đáng xem.</li>
+                <li>Tôi đề xuất bạn thử xem "The Godfather".</li>
+                <li>"Parasite" là một bộ phim Hàn Quốc rất xuất sắc.</li>
+                <li>Bạn nên xem "Forrest Gump".</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÔI NÊN XEM PHIM GÌ</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể xem phim "The Shawshank Redemption".</li>
+                <li>"Inception" là một bộ phim rất đáng xem.</li>
+                <li>Tôi đề xuất bạn thử xem "The Godfather".</li>
+                <li>"Parasite" là một bộ phim Hàn Quốc rất xuất sắc.</li>
+                <li>Bạn nên xem "Forrest Gump".</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ĐỀ XUẤT PHIM</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể xem phim "The Shawshank Redemption".</li>
+                <li>"Inception" là một bộ phim rất đáng xem.</li>
+                <li>Tôi đề xuất bạn thử xem "The Godfather".</li>
+                <li>"Parasite" là một bộ phim Hàn Quốc rất xuất sắc.</li>
+                <li>Bạn nên xem "Forrest Gump".</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Default response for unrecognized input -->
+    <category>
+   

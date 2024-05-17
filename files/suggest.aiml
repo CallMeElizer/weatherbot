@@ -1,0 +1,59 @@
+<aiml version="2.0">
+    <category>
+        <pattern>GỢI Ý HOẠT ĐỘNG</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể đi dạo công viên.</li>
+                <li>Tại sao không thử đọc một cuốn sách mới?</li>
+                <li>Bạn có thể nấu một món ăn mới.</li>
+                <li>Thử vẽ hoặc làm thủ công để thư giãn.</li>
+                <li>Bạn có thể xem một bộ phim yêu thích.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GỢI Ý</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể chơi một tựa game mới.</li>
+                <li>Tại sao không thử đọc một cuốn sách mới?</li>
+                <li>Bạn có thể nấu một món ăn mới.</li>
+                <li>Thử vẽ hoặc làm thủ công để thư giãn.</li>
+                <li>Bạn có thể xem một bộ phim yêu thích.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÔI NÊN LÀM GÌ</pattern>
+        <template>
+            <random>
+                 <li>Bạn có thể chơi một tựa game mới.</li>
+                <li>Tại sao không thử đọc một cuốn sách mới?</li>
+                <li>Bạn có thể nấu một món ăn mới.</li>
+                <li>Thử vẽ hoặc làm thủ công để thư giãn.</li>
+                <li>Bạn có thể xem một bộ phim yêu thích.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOẠT ĐỘNG GÌ</pattern>
+        <template>
+            <random>
+                 <li>Bạn có thể chơi một tựa game mới.</li>
+                <li>Tại sao không thử đọc một cuốn sách mới?</li>
+                <li>Bạn có thể nấu một món ăn mới.</li>
+                <li>Thử vẽ hoặc làm thủ công để thư giãn.</li>
+                <li>Bạn có thể xem một bộ phim yêu thích.</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Default response for unrecognized input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Xin lỗi, tôi không hiểu bạn đang nói gì. Bạn có thể thử hỏi lại không?</template>
+    </category>
+</aiml>

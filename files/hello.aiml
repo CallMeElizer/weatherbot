@@ -1,0 +1,46 @@
+<aiml version="2.0">
+    <category>
+        <pattern>XIN CHÀO</pattern>
+        <template>
+            <random>
+                <li>Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?</li>
+                <li>Xin chào! Bạn cần hỗ trợ gì không?</li>
+                <li>Chào! Hôm nay bạn thế nào?</li>
+                <li>Rất vui được gặp bạn! Bạn muốn hỏi gì?</li>
+                <li>Chào mừng bạn! Tôi có thể làm gì cho bạn?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHÀO</pattern>
+        <template>
+            <random>
+                <li>Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?</li>
+                <li>Xin chào! Bạn cần hỗ trợ gì không?</li>
+                <li>Chào! Hôm nay bạn thế nào?</li>
+                <li>Rất vui được gặp bạn! Bạn muốn hỏi gì?</li>
+                <li>Chào mừng bạn! Tôi có thể làm gì cho bạn?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?</li>
+                <li>Xin chào! Bạn cần hỗ trợ gì không?</li>
+                <li>Chào! Hôm nay bạn thế nào?</li>
+                <li>Rất vui được gặp bạn! Bạn muốn hỏi gì?</li>
+                <li>Chào mừng bạn! Tôi có thể làm gì cho bạn?</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Default response for unrecognized input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Xin lỗi, tôi không hiểu bạn đang nói gì. Bạn có thể thử hỏi lại không?</template>
+    </category>
+</aiml>

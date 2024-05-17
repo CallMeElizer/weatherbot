@@ -1,0 +1,46 @@
+<aiml version="2.0">
+    <category>
+        <pattern>GỢI Ý GAME</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử chơi "The Legend of Zelda: Breath of the Wild".</li>
+                <li>"Among Us" là một trò chơi rất thú vị để chơi cùng bạn bè.</li>
+                <li>Tôi đề xuất bạn thử "Minecraft".</li>
+                <li>"Genshin Impact" là một trò chơi nhập vai hành động rất hấp dẫn.</li>
+                <li>Bạn nên thử "Animal Crossing: New Horizons".</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÔI NÊN CHƠI GÌ</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử chơi "The Legend of Zelda: Breath of the Wild".</li>
+                <li>"Among Us" là một trò chơi rất thú vị để chơi cùng bạn bè.</li>
+                <li>Tôi đề xuất bạn thử "Minecraft".</li>
+                <li>"Genshin Impact" là một trò chơi nhập vai hành động rất hấp dẫn.</li>
+                <li>Bạn nên thử "Animal Crossing: New Horizons".</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ĐỀ XUẤT GAME</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử chơi "The Legend of Zelda: Breath of the Wild".</li>
+                <li>"Among Us" là một trò chơi rất thú vị để chơi cùng bạn bè.</li>
+                <li>Tôi đề xuất bạn thử "Minecraft".</li>
+                <li>"Genshin Impact" là một trò chơi nhập vai hành động rất hấp dẫn.</li>
+                <li>Bạn nên thử "Animal Crossing: New Horizons".</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Default response for unrecognized input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Xin lỗi, tôi không hiểu bạn đang nói gì. Bạn có thể thử hỏi lại không?</template>
+    </category>
+</aiml>

@@ -1,0 +1,46 @@
+<aiml version="2.0">
+    <category>
+        <pattern>GỢI Ý SÁCH</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử đọc cuốn "Đắc Nhân Tâm" của Dale Carnegie.</li>
+                <li>Một cuốn sách hay là "Nhà Giả Kim" của Paulo Coelho.</li>
+                <li>Tôi đề xuất cuốn "Sapiens: Lược Sử Loài Người" của Yuval Noah Harari.</li>
+                <li>"Mắt Biếc" của Nguyễn Nhật Ánh là một lựa chọn tuyệt vời.</li>
+                <li>Bạn nên đọc "Harry Potter và Hòn Đá Phù Thủy" của J.K. Rowling.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÔI NÊN ĐỌC GÌ</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử đọc cuốn "Đắc Nhân Tâm" của Dale Carnegie.</li>
+                <li>Một cuốn sách hay là "Nhà Giả Kim" của Paulo Coelho.</li>
+                <li>Tôi đề xuất cuốn "Sapiens: Lược Sử Loài Người" của Yuval Noah Harari.</li>
+                <li>"Mắt Biếc" của Nguyễn Nhật Ánh là một lựa chọn tuyệt vời.</li>
+                <li>Bạn nên đọc "Harry Potter và Hòn Đá Phù Thủy" của J.K. Rowling.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ĐỀ XUẤT SÁCH</pattern>
+        <template>
+            <random>
+                <li>Bạn có thể thử đọc cuốn "Đắc Nhân Tâm" của Dale Carnegie.</li>
+                <li>Một cuốn sách hay là "Nhà Giả Kim" của Paulo Coelho.</li>
+                <li>Tôi đề xuất cuốn "Sapiens: Lược Sử Loài Người" của Yuval Noah Harari.</li>
+                <li>"Mắt Biếc" của Nguyễn Nhật Ánh là một lựa chọn tuyệt vời.</li>
+                <li>Bạn nên đọc "Harry Potter và Hòn Đá Phù Thủy" của J.K. Rowling.</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Default response for unrecognized input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Xin lỗi, tôi không hiểu bạn đang nói gì. Bạn có thể thử hỏi lại không?</template>
+    </category>
+</aiml>
